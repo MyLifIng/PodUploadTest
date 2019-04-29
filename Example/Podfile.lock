@@ -1,0 +1,16 @@
+PODS:
+  - PodUploadTest (0.1.0)
+
+DEPENDENCIES:
+  - PodUploadTest (from `../`)
+
+EXTERNAL SOURCES:
+  PodUploadTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodUploadTest: 05d66166f0e8d6b8e3eb6483b80f21ed470a4cc7
+
+PODFILE CHECKSUM: bdf836c02418fe802843b955a10dd6784b7a0e2d
+
+COCOAPODS: 1.6.1

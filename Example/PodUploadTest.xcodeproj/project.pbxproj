@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69FF74EBDA11FB3D754DE688 /* Pods-PodUploadTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodUploadTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PodUploadTest_Tests/Pods-PodUploadTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7526012725AB5736A169EF02 /* PodUploadTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PodUploadTest.podspec; path = ../PodUploadTest.podspec; sourceTree = "<group>"; };
-		86134DAD35E7FB6800917288 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7526012725AB5736A169EF02 /* PodUploadTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodUploadTest.podspec; path = ../PodUploadTest.podspec; sourceTree = "<group>"; };
+		86134DAD35E7FB6800917288 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A7E8CC2AE92312821D190886 /* Pods-PodUploadTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodUploadTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-PodUploadTest_Example/Pods-PodUploadTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB410784A68BA7E4DEA35C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBB410784A68BA7E4DEA35C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				69FF74EBDA11FB3D754DE688 /* Pods-PodUploadTest_Tests.debug.xcconfig */,
 				0C0B416B6922CFEC87A7D2FD /* Pods-PodUploadTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -483,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodUploadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodUploadTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
